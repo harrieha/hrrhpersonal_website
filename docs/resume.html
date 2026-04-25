@@ -1,15 +1,15 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Harrie Ha Website</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Resume</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
-  <link href="../resources/css/style.css" rel="stylesheet">
+  <link href="resources/css/style.css" rel="stylesheet">
 </head>
-<body class="d-flex flex-column min-vh-100">
-  <!-- Navbar -->
+<body>
+      <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container">
       <a class="navbar-brand" href="home.html">Home</a>
@@ -24,7 +24,6 @@
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
             <a class="nav-link" href="#">
-              <!-- ChatLogo.png was created using Generative AI-->
               <img src="../resources/img/ChatLogo.png" alt="Chat Logo" style="height:60px; width:auto;">
             </a>
           </li>
@@ -33,30 +32,56 @@
     </div>
   </nav>
 
-  <!-- Main Section -->
-  <main class="container my-5 flex-grow-1">
-    <div class="row align-items-start">
-      <div class="col-md-4 text-center">
-        <img src="../resources/img/Harrie12 copy.jpg" alt="Harrie Ha" class="img-fluid" />
-      </div>
-      <div class="col-md-8">
-        <h1>Harrie Ha</h1>
-        <p>I am a current sophomore studying Computer Science B.S with a minor in Computational Biology at the University of Colorado Boulder.</p>
-        <a href="resume.html">Resume Site View Here</a>
-        <a href="../resources/img/harrie_ha_cv-5.pdf" target="_blank" download="harrie_ha_cv-5">
-        <button>Download PDF</button></a>
-      </div>
-    </div>
-  </main>
 
-  <!-- Footer -->
+<!-- RESUME (DIV-BASED LAYOUT) -->
+<main id="resume" class="container pb-5">
+
+<div class="row g-4">
+<div class="col-12">
+</div>
+</div>
+
+<div class="col-md-6">
+<div class = "title"> Harrie Ha</div>
+<div class="section-title">Education</div>
+<div class="resume-item mb-3">
+<h5>University of Colorado Boulder — B.S. Computer Science</h5>
+<div class="meta">Minor: Computational Biology • 2024–Present</div>
+<div class = "meta"> GPA: 3.6</div>
+<ul class="mb-0 mt-2">
+<li>Relevant Coursework: Data Structures, Calculus II, Computer Systems (current)</li>
+<li>Clubs: Society of Women Engineers (SWE), Society of Asian Scientists and Engineers (SASE), Women in Computing (WIC)</li>
+</ul>
+</div>
+</div>
+
+
+<div class="col-md-6">
+<div class="section-title">Skills</div>
+<div class="row g-2">
+<div class="col-6">
+<div class="p-3 border rounded-3">
+<strong>Languages</strong>
+<div class="text-muted">C++, Python, Java</div>
+</div>
+</div>
+<div class="col-6">
+<div class="p-3 border rounded-3">
+<strong>Web</strong>
+<div class="text-muted">HTML (beginner) </div>
+
+
+</div>
+</div>
+
+
+<!-- Footer -->
   <footer class="bg-body-tertiary text-center py-3 mt-auto">
     <div class="container">
       <a href="https://github.com/harrieha" class="mx-2" aria-label="GitHub"><i class="fab fa-github fa-lg"></i></a>
       <a href="https://www.linkedin.com/in/harrie-ha-53981a326/" class="mx-2" aria-label="LinkedIn"><i class="fab fa-linkedin fa-lg"></i></a>
     </div>
   </footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
